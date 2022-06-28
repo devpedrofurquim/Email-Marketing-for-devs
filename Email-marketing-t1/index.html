@@ -4,6 +4,8 @@
         <meta http-equiv="Content-type" content="text/html; chartset=utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+        rel="stylesheet">
         <title>HTML Viva+Forte Email Template</title>
         <style type="text/css">
             body {
@@ -38,6 +40,102 @@
                 color: #171a1b;
             }
 
+            .two-columns {
+                text-align: center;
+                font-size: 0;
+            }
+
+            .two-columns .column {
+                width: 100%;
+                max-width: 300px;
+                display: inline-block;
+                vertical-align: top;
+                text-align: center;
+            }
+
+            .three-columns {
+                text-align: center;
+                font-size: 0;
+                padding: 15px 0 25px;
+
+            }
+
+            .three-columns .column {
+                width: 100%;
+                max-width: 200px;
+                display: inline-block;
+                vertical-align: top;
+                text-align: center;
+            }
+
+            .three-columns .padding {
+                padding: 15px;
+            }
+
+            .three-columns .content {
+                font-size: 15px;
+                line-height: 20px;
+                padding: 0 5px;
+            }
+
+            .two-columns.last {
+                padding: 15px 0;
+            }
+
+            .two-columns .padding {
+                padding: 20px;
+            }
+
+            .two-columns .content {
+                font-size: 15px;
+                line-height: 20px;
+                text-align: left;
+            }
+
+            .button {
+                background-color: #fff;
+                color: #171a1b;
+                text-decoration: none;
+                padding: 12px 20px;
+                border-radius: 5px;
+                font-weight: bold;
+            }
+
+            .button-dark {
+                background-color: #171a1b;
+                color: #fff;
+                text-decoration: none;
+                padding: 12px 20px;
+                border-radius: 5px;
+                font-weight: bold;
+            }
+
+            .material-icons {
+            font-family: 'Material Icons';
+            font-weight: normal;
+            font-style: normal;
+            font-size: 24px;  /* Preferred icon size */
+            display: inline-block;
+            line-height: 1;
+            text-transform: none;
+            letter-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            direction: ltr;
+
+            /* Support for all WebKit browsers. */
+            -webkit-font-smoothing: antialiased;
+            /* Support for Safari and Chrome. */
+            text-rendering: optimizeLegibility;
+
+            /* Support for Firefox. */
+            -moz-osx-font-smoothing: grayscale;
+
+            /* Support for IE. */
+            font-feature-settings: 'liga';
+            }
+
+
         </style>
     </head>
     <body>
@@ -53,7 +151,7 @@
 
         <!-- LOGO SECTION-->
                 <tr>
-                    <td>
+                    <td style="padding: 14px 0 4px;">
                         <table width="100%">
 
                             <t>
@@ -61,8 +159,23 @@
 
                                     <table class="column">
                                         <tr>
-                                            <td>
-                                                <a href="https://vivamaisforte.com.br/"><img src="images/Artes-Icone_V+F.png" alt="" width="50%" title="Viva+Forte Logo"></a>
+                                            <td style="padding: 0 62px 10px;">
+                                                <a href="https://vivamaisforte.com.br/"><img src="images/Artes-Icone_V+F.png" alt="Viva+Forte Logo" width="180" title="Viva+Forte Logo"></a>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <table class="column">
+                                        <tr>
+                                            <td style="padding: 10px 72px;">
+
+                                                <a href="#"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjIuNjc1IDBoLTIxLjM1Yy0uNzMyIDAtMS4zMjUuNTkzLTEuMzI1IDEuMzI1djIxLjM1MWMwIC43MzEuNTkzIDEuMzI0IDEuMzI1IDEuMzI0aDExLjQ5NXYtOS4yOTRoLTMuMTI4di0zLjYyMmgzLjEyOHYtMi42NzFjMC0zLjEgMS44OTMtNC43ODggNC42NTktNC43ODggMS4zMjUgMCAyLjQ2My4wOTkgMi43OTUuMTQzdjMuMjRsLTEuOTE4LjAwMWMtMS41MDQgMC0xLjc5NS43MTUtMS43OTUgMS43NjN2Mi4zMTNoMy41ODdsLS40NjcgMy42MjJoLTMuMTJ2OS4yOTNoNi4xMTZjLjczIDAgMS4zMjMtLjU5MyAxLjMyMy0xLjMyNXYtMjEuMzVjMC0uNzMyLS41OTMtMS4zMjUtMS4zMjUtMS4zMjV6Ii8+PC9zdmc+
+                                                " alt="" width="30"></a>
+                                                <a href="#"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTUuMjMzIDUuNDg4Yy0uODQzLS4wMzgtMS4wOTctLjA0Ni0zLjIzMy0uMDQ2cy0yLjM4OS4wMDgtMy4yMzIuMDQ2Yy0yLjE3LjA5OS0zLjE4MSAxLjEyNy0zLjI3OSAzLjI3OS0uMDM5Ljg0NC0uMDQ4IDEuMDk3LS4wNDggMy4yMzNzLjAwOSAyLjM4OS4wNDcgMy4yMzNjLjA5OSAyLjE0OCAxLjEwNiAzLjE4IDMuMjc5IDMuMjc5Ljg0My4wMzggMS4wOTcuMDQ3IDMuMjMzLjA0NyAyLjEzNyAwIDIuMzktLjAwOCAzLjIzMy0uMDQ2IDIuMTctLjA5OSAzLjE4LTEuMTI5IDMuMjc5LTMuMjc5LjAzOC0uODQ0LjA0Ni0xLjA5Ny4wNDYtMy4yMzNzLS4wMDgtMi4zODktLjA0Ni0zLjIzMmMtLjA5OS0yLjE1My0xLjExMS0zLjE4Mi0zLjI3OS0zLjI4MXptLTMuMjMzIDEwLjYyYy0yLjI2OSAwLTQuMTA4LTEuODM5LTQuMTA4LTQuMTA4IDAtMi4yNjkgMS44NC00LjEwOCA0LjEwOC00LjEwOHM0LjEwOCAxLjgzOSA0LjEwOCA0LjEwOGMwIDIuMjY5LTEuODM5IDQuMTA4LTQuMTA4IDQuMTA4em00LjI3MS03LjQxOGMtLjUzIDAtLjk2LS40My0uOTYtLjk2cy40My0uOTYuOTYtLjk2Ljk2LjQzLjk2Ljk2LS40My45Ni0uOTYuOTZ6bS0xLjYwNCAzLjMxYzAgMS40NzMtMS4xOTQgMi42NjctMi42NjcgMi42NjdzLTIuNjY3LTEuMTk0LTIuNjY3LTIuNjY3YzAtMS40NzMgMS4xOTQtMi42NjcgMi42NjctMi42NjdzMi42NjcgMS4xOTQgMi42NjcgMi42Njd6bTQuMzMzLTEyaC0xNGMtMi43NjEgMC01IDIuMjM5LTUgNXYxNGMwIDIuNzYxIDIuMjM5IDUgNSA1aDE0YzIuNzYyIDAgNS0yLjIzOSA1LTV2LTE0YzAtMi43NjEtMi4yMzgtNS01LTV6bS45NTIgMTUuMjk4Yy0uMTMyIDIuOTA5LTEuNzUxIDQuNTIxLTQuNjUzIDQuNjU0LS44NTQuMDM5LTEuMTI2LjA0OC0zLjI5OS4wNDhzLTIuNDQ0LS4wMDktMy4yOTgtLjA0OGMtMi45MDgtLjEzMy00LjUyLTEuNzQ4LTQuNjU0LTQuNjU0LS4wMzktLjg1My0uMDQ4LTEuMTI1LS4wNDgtMy4yOTggMC0yLjE3Mi4wMDktMi40NDUuMDQ4LTMuMjk4LjEzNC0yLjkwOCAxLjc0OC00LjUyMSA0LjY1NC00LjY1My44NTQtLjA0IDEuMTI1LS4wNDkgMy4yOTgtLjA0OXMyLjQ0NS4wMDkgMy4yOTkuMDQ4YzIuOTA4LjEzMyA0LjUyMyAxLjc1MSA0LjY1MyA0LjY1My4wMzkuODU0LjA0OCAxLjEyNy4wNDggMy4yOTkgMCAyLjE3My0uMDA5IDIuNDQ1LS4wNDggMy4yOTh6Ii8+PC9zdmc+
+                                                " alt="" width="30"></a>
+                                                <a href="#"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTIuMDM2IDUuMzM5Yy0zLjYzNSAwLTYuNTkxIDIuOTU2LTYuNTkzIDYuNTg5LS4wMDEgMS40ODMuNDM0IDIuNTk0IDEuMTY0IDMuNzU2bC0uNjY2IDIuNDMyIDIuNDk0LS42NTRjMS4xMTcuNjYzIDIuMTg0IDEuMDYxIDMuNTk1IDEuMDYxIDMuNjMyIDAgNi41OTEtMi45NTYgNi41OTItNi41OS4wMDMtMy42NDEtMi45NDItNi41OTMtNi41ODYtNi41OTR6bTMuODc2IDkuNDIzYy0uMTY1LjQ2My0uOTU3Ljg4NS0xLjMzNy45NDItLjM0MS4wNTEtLjc3My4wNzItMS4yNDgtLjA3OC0uMjg4LS4wOTEtLjY1Ny0uMjEzLTEuMTI5LS40MTctMS45ODctLjg1OC0zLjI4NS0yLjg1OS0zLjM4NC0yLjk5MS0uMDk5LS4xMzItLjgwOS0xLjA3NC0uODA5LTIuMDQ5IDAtLjk3NS41MTItMS40NTQuNjkzLTEuNjUzLjE4Mi0uMi4zOTYtLjI1LjUyOC0uMjVsLjM4LjAwN2MuMTIyLjAwNi4yODUtLjA0Ni40NDYuMzQuMTY1LjM5Ny41NjEgMS4zNzIuNjExIDEuNDcxLjA0OS4wOTkuMDgzLjIxNS4wMTYuMzQ3LS4wNjYuMTMyLS4wOTkuMjE1LS4xOTguMzNsLS4yOTcuMzQ3Yy0uMDk5LjA5OS0uMjAyLjIwNi0uMDg3LjQwNC4xMTYuMTk4LjUxMy44NDcgMS4xMDIgMS4zNzIuNzU3LjY3NSAxLjM5NS44ODQgMS41OTMuOTgzLjE5OC4wOTkuMzE0LjA4My40MjktLjA1LjExNi0uMTMyLjQ5NS0uNTc4LjYyNy0uNzc3cy4yNjQtLjE2NS40NDYtLjA5OSAxLjE1Ni41NDUgMS4zNTQuNjQ1Yy4xOTguMDk5LjMzLjE0OS4zOC4yMzEuMDQ5LjA4NS4wNDkuNDgyLS4xMTYuOTQ1em0zLjA4OC0xNC43NjJoLTE0Yy0yLjc2MSAwLTUgMi4yMzktNSA1djE0YzAgMi43NjEgMi4yMzkgNSA1IDVoMTRjMi43NjIgMCA1LTIuMjM5IDUtNXYtMTRjMC0yLjc2MS0yLjIzOC01LTUtNXptLTYuOTY3IDE5Ljg2MmMtMS4zMjcgMC0yLjYzNC0uMzMzLTMuNzkyLS45NjVsLTQuMjAzIDEuMTAzIDEuMTI1LTQuMTA4Yy0uNjk0LTEuMjAyLTEuMDU5LTIuNTY2LTEuMDU4LTMuOTY0LjAwMi00LjM3MiAzLjU1OC03LjkyOCA3LjkyOC03LjkyOCAyLjEyMS4wMDEgNC4xMTIuODI3IDUuNjA5IDIuMzI1czIuMzIxIDMuNDkxIDIuMzIgNS42MDljLS4wMDIgNC4zNzItMy41NTkgNy45MjgtNy45MjkgNy45Mjh6Ii8+PC9zdmc+
+                                                " alt="" width="30"></a>
+                    
                                             </td>
                                         </tr>
                                     </table>
@@ -74,14 +187,202 @@
                     </td>
                 </tr>
         <!-- BANNER IMAGE -->
+                <tr>
+                    <td>
+                        <a href="#"><img src="images/Banner-example.jpg" alt="" width="600" style="max-width: 100%;"></a>
+                    </td>
+                </tr>
 
         <!-- THREE  COLUMN SECTION -->
+                <tr>
+                    <td>
+                        <table width="100%">
+                            <tr>
+                                <td class="three-columns">
+
+                                    <table class="column">
+                                        <tr>
+                                            <td class="padding">
+
+                                                <table class="content">
+                                                    <tr>
+                                                        <td>
+                                                        
+                                                            <a href="#"><img src="images/produto-1.png" alt="" width="130px" style="max-width: 130px;"></a>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <p style="font-weight:bold; font-size:17px;">Nome do Produto</p>
+                                                            <p>Longa Descrição do Produto, com o objetivo de chamar atenção do consumidor</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <table class="column">
+                                        <tr>
+                                            <td class="padding">
+
+                                                <table class="content">
+                                                    <tr>
+                                                        <td>
+                                                        
+                                                            <a href="#"><img src="images/produto-1.png" alt="" width="130px" style="max-width: 130px;"></a>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <p style="font-weight:bold; font-size:17px;">Nome do Produto</p>
+                                                            <p>Longa Descrição do Produto, com o objetivo de chamar atenção do consumidor</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <table class="column">
+                                        <tr>
+                                            <td class="padding">
+
+                                                <table class="content">
+                                                    <tr>
+                                                        <td>
+                                                        
+                                                            <a href="#"><img src="images/produto-1.png" alt="" width="130px" style="max-width: 130px;"></a>
+
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <p style="font-weight:bold; font-size:17px;">Nome do Produto</p>
+                                                            <p>Longa Descrição do Produto, com o objetivo de chamar atenção do consumidor</p>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
 
         <!-- TWO COLUMN SECTION -->
+                
+                <tr>
+                    <td style="background-color: #26292b;color: #fff;">
+                        <table width="100%">
+
+                            <tr>
+                                <td class="two-columns last">
+
+                                    <table class="column">
+                                        <tr>
+                                            <td class="padding">
+
+                                                <table class="content">
+                                                    <tr>
+                                                        <td>
+
+                                                            <a href="#"><img src="images/POP.png" alt="" width="260" style="max-width: 260px;"></a>
+
+                                                        </td>
+                                                    </tr>
+                                                </table>
+
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                    <table class="column">
+                                        <tr>
+                                            <td class="padding">
+
+                                                <table class="content">
+                                                    <tr>
+                                                        <td>
+
+                                                            <p style="font-weight: bold; font-size: 18px">Título Customizado</p>
+
+                                                            <p style="padding-bottom: 16px;"> Longa descrição do produto, com o objetivo principal de chamar a atenção do consumidor para o botão abaixo.</p>
+
+                                                            <a href="#" class="button">Chamada Para Ação</a>
+
+                                                        </td>
+                                                    </tr>
+                                                </table>
+
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
 
         <!-- TITLE, TEXT &  BUTTON -->
 
+                <tr>
+                    <td style="padding: 15px 0 50px;">
+                        <table width="100%">
+
+                            <tr>
+                                <td style="text-align: center; padding: 15px;">
+
+                                    <p style="font-size: 20px; font-weight: bold;">Avalie Nossa Loja</p>
+
+                                    <p style="line-height: 23px; font-size: 15px; padding: 5px 0 15px;">Longa descrição para chamar atenção do consumidor em relação ao botão abaixo.</p>
+
+                                    <a href="#" class="button-dark">Chamada Para Ação</a>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
+
+
         <!-- FOOTER SECTION -->
+
+                <tr>
+                    <td style="background-color:#26262b;">
+                        <table width="100%">
+
+                            <tr>
+                                <td style="text-align:center; padding: 45px 20px; color: #fff;">
+
+                                    <a href="#"><img src="images/Artes-Icone_V+F.png" alt="" width="180px"></a>
+
+                                    <p style="padding: 10px">Viva+Forte email</p>
+
+                                    <p style="padding: 10px">Viva+Forte endereço, CEP, Cidade - Estado</p>
+
+                              
+                                        
+                                        
+
+                                      
+
+                                </td>
+                            </tr>
+
+                        </table>
+                    </td>
+                </tr>
 
             </table>
 
