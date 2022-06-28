@@ -88,7 +88,11 @@ Essa estratégia mantém a audiência engajada com a empresa e os atualiza em re
 
 * Questionário 
 
+fonts: 
 
+https://blog.hubspot.com/marketing/email-marketing-guide
+
+https://blog.hubspot.com/marketing/email-marketing-examples-list
 
 
 
