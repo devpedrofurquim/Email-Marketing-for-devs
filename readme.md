@@ -18,6 +18,7 @@ No desenvolvimento de email marketing com Html e Css mantem-se o seguinte códig
 
 // DOCUMENT TYPE HTML 1.0 TRANSITIONAL é o mais compátivel com o email clients.
 
+<!--!>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "Http://www.w3.org/TR/xhtml1-transitional.dtd">
 <html xmls="http://www.wr3.or/1999/xhtml">
 <head>
@@ -49,7 +50,7 @@ Compatibilidade:
 
 O IE=Edge ativa a compatibilidade do comportamento responsivo com os celulares windows, e isso é ótimo. Porém, essa tag também vai todas as suas imagens no Live Mail. A solução é simples, basta colocar seu IE=Edge meta tag entre uma condicional para o esconder do Live Mail, assim:
 
-<!--[if !mso]><!-- -->
+
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <!--<![endif]-->
 
@@ -119,11 +120,13 @@ Não é necessário, mas gosto de usar.
 <body>
 
 // Classe para centralizar todo o conteúdo dentro do HTML.
+
 <center class="wrapper">
 
 CÓDIGO HTML INTEIRO COM INLINE STYLES
 
 // Fechamento de classes.
+
 </center>
 </body>
 </html>
