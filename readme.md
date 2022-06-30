@@ -173,3 +173,9 @@ fonts:
 https://blog.hubspot.com/marketing/email-marketing-guide
 
 https://blog.hubspot.com/marketing/email-marketing-examples-list
+
+https://stackoverflow.com/questions/17880763/can-i-use-font-awesome-icons-on-emails
+
+https://www.codehim.com/social-media/social-media-buttons-html-code/
+
+https://templates.mailchimp.com/development/html/
