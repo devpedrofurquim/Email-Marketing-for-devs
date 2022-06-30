@@ -14,78 +14,31 @@
 
 # Guia para Desenvolvedores Web
 
-No desenvolvimento de email marketing com Html e Css mantem-se o seguinte código base:
+O DOCUMENT TYPE HTML 1.0 TRANSITIONAL é o mais compátivel com o email clients.
 
-// DOCUMENT TYPE HTML 1.0 TRANSITIONAL é o mais compátivel com o email clients.
+* Meta Tags para Emails Marketing
 
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "Http://www.w3.org/TR/xhtml1-transitional.dtd">
-<html xmls="http://www.wr3.or/1999/xhtml">
-<head>
-
-- Meta Tags para Emails Marketing
-
-Detector de Formato:
+* Detector de Formato:
 
 Essas tags simples impedem o IOS de transformar seus números de telefone e datas em links. Pessoalmente, acredito que esses links podem ajudar se a intenção for de que o leads entrem em contato ou salvem a informação. Por outro lado, o text-decoration padrão da Apple pode não ir bem com o esquema de cores do seu email, e essas meta tags impedem essa tranformação.
 
-<meta name="format-detection" content="date=no">
-<meta name="format-detection" content="telephone=no">
-
-Viewport:
+* Viewport:
 
 Essas meta tags podem ser usadas para controlar o tamanho em que o browser mostra o seu email. No entanto, uma pesquisa apontou que esses vários meta tags não causam efeito no display inicial e no comportamento responsivo do email. O atributo max-scale impede que os usuários dêem zoom in no corpo do email, e isso não é de grande ajuda para quem tem problemas de visão.
 
-<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
-<meta name="viewport" content="width=600,initial-scale = 2.3,user-scalable=no">
-<meta name="viewport" content="width=device-width">
-
-Charset:
+* Charset:
 
 Essa tag é extremamente importante para preservar as letras e números de seu email através de vários clientes de email.
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+* Compatibilidade:
 
-Compatibilidade:
+O IE=Edge ativa a compatibilidade do comportamento responsivo com os celulares windows, e isso é ótimo. Porém, essa tag também vai todas as suas imagens no Live Mail. A solução é simples, basta colocar seu IE=Edge meta tag entre uma condicional para o esconder do Live Mail.
 
-O IE=Edge ativa a compatibilidade do comportamento responsivo com os celulares windows, e isso é ótimo. Porém, essa tag também vai todas as suas imagens no Live Mail. A solução é simples, basta colocar seu IE=Edge meta tag entre uma condicional para o esconder do Live Mail, assim:
-
-
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<!--<![endif]-->
-
-Já as meta tags de compatibilidade seguintes se mantém do seguinte modo:
-
-<meta http-equiv="X-UA-Compatible" content="IE=7" />
-<meta http-equiv="X-UA-Compatible" content="IE=8" />
-<meta http-equiv="X-UA-Compatible" content="IE=9" />
-
-É importante manter a meta tag de compatibilidade com Internet Explore e Microsoft Edge.
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+É importante manter a meta tag de compatibilidade com Internet Explore, Microsoft Edge, Outlook e Google.
 
 Portanto, o ínicio do documento HTML se dará assim:
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "Http://www.w3.org/TR/xhtml1-transitional.dtd">
-<html xmls="http://www.wr3.or/1999/xhtml">
-<head>
-
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-<meta name="format-detection" content="date=no">
-<meta name="format-detection" content="telephone=no">
-
-<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
-<meta name="viewport" content="width=600,initial-scale = 2.3,user-scalable=no">
-<meta name="viewport" content="width=device-width">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="IE=7" />
-<meta http-equiv="X-UA-Compatible" content="IE=8" />
-<meta http-equiv="X-UA-Compatible" content="IE=9" />
-<!--[if !mso]><-- -->
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<!--<![endif]-->
+![/Email-Marketing/imgs/Início do HTML para email marketing (meta tags)]
 
 - Title tag para email marketing
 
