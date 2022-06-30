@@ -38,7 +38,7 @@ O IE=Edge ativa a compatibilidade do comportamento responsivo com os celulares w
 
 Portanto, o ínicio do documento HTML se dará assim:
 
-![/Email-Marketing/imgs/Início do HTML para email marketing (meta tags)]
+![https://ibb.co/k9MbKRc]
 
 - Title tag para email marketing
 
