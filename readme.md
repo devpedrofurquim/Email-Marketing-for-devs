@@ -50,39 +50,11 @@ Não é necessário, mas gosto de usar.
 
 É importante manter a folha da Style interna acima do body e dentro da tag <head>, mas é mais importante ainda manter os atributos de style no modo Inline.
 
-<style type="text/css">
+O código base da folha interna fica assim:
 
-    body {
-        maring: 0;
-        background-color: #cccccc;
-    }
+![image](https://i.ibb.co/p0CmxVZ/Folha-Style-Interna.png)
 
-    table {
-        border-spacing: 0;
-    }
 
-    td {
-        padding: 0;
-    }
-
-    img {
-        border: 0;
-    }
-</style>
-</head>
-<body>
-
-// Classe para centralizar todo o conteúdo dentro do HTML.
-
-<center class="wrapper">
-
-CÓDIGO HTML INTEIRO COM INLINE STYLES
-
-// Fechamento de classes.
-
-</center>
-</body>
-</html>
 
 # Exemplos efetivos de campanhas de email marketing
 
