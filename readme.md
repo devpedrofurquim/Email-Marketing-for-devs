@@ -86,7 +86,45 @@ Por que funciona?
 
 Essa estratégia mantém a audiência engajada com a empresa e os atualiza em relação ao rastreamento de seu pedido.
 
-* Questionário 
+* Birchbox
+
+O estilo de assunto com a frase "Ops, nós esquecemos de te enviar algo em fevereiro" é curiosa e já se provou efetiva para muitas empresas. É claro, nada foi realmente esquecido, mas é uma estratégia interessante para captar a atenção do cliente. A intenção desse email é realmente enviar um cupom de desconto para o cliente.
+
+Por que funciona?
+
+Conquista a atenção do cliente e agregra para empresa um ponto com o cliente, por ser uma estratégia única.
+
+* Postmates
+
+GIFs são fáceis de serem consumidos e na maioria das vezes são extremamente cativantes. Pode-se usar GIFs em sua estratégia de email marketing e também aproveitar de uma headline divertida e engraçada, ou até mesmo pode-se usar o GIF para demonstrar o produto de um modo diferente e mais cativante.
+
+Por que funciona?
+
+Centraliza o produto de uma maneira divertida e diferenciada.
+
+* Dropbox
+
+Receber o email de um produto que você não usa há algum tempo realmente pode ser chato, e muitas vezes nem esperamos por tal estratégia, no entanto, cliente perdidos são o foco dessa campanha. O uso de uma headline que vai direto ao ponto, como um "Volte para nós" e um design amigável e emocional é a junção perfeita para atrair a atenção desse cliente perdido.
+
+Além do mais, a intenção é manter um email curto e simples, com o objetivo de enfatizar que a intenção da empresa não é ser intruza, mas sim lembrá-los que a empresa existe e sente falta de seus clientes. Quando enviar email's como esse, você pode querer incluir uma promoção única, como um cupom limitado que inclua a palavra VOLTA ou RETORNO.
+
+* Cook Smarts
+
+A estratégia de email marketing Cook Smart é a da Newsletter. A compania envia para os seus clientes receitas semanais em três seções distintas, uma para o menu, outra para o modo de preparação e a última para as dicas de como consumir a receita, e isso significa que você não precisa acessar o site ou blog da empresa para ler o seu conteúdo por inteiro. Você vai saber exatemente qual seção procurar depois de alguns poucos emails recebidos.
+
+* Hirevue
+
+"Dizer adeus sempre é dificíl... Então decidimos te dar a opção de repensar nosso relacionamento." Esse o assunto da estratégia de email marketing Hirevue, um email automatizado que dá ao cliente a chance de se desassociar da lista de emails da empresa. É aconselhável a utilização de um email marketing simples, apenas focado na opção de se desassociar da lista de emails da empresa.
+
+Esse modelo de email marketing é super inteligente, pois uma baixa taxa de abertura pode se tornar um grande prejuízo para a sua campanha.
+
+Por que funciona?
+
+Essa estratégia faz com que o cliente pause e pense se realmente quer se desassociar da lista de emails da empresa ou não.
+
+* 
+
+
 
 fonts: 
 
