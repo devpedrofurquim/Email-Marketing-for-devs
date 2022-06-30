@@ -18,7 +18,7 @@ No desenvolvimento de email marketing com Html e Css mantem-se o seguinte códig
 
 // DOCUMENT TYPE HTML 1.0 TRANSITIONAL é o mais compátivel com o email clients.
 
-<!--!>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "Http://www.w3.org/TR/xhtml1-transitional.dtd">
 <html xmls="http://www.wr3.or/1999/xhtml">
 <head>
@@ -83,8 +83,8 @@ Portanto, o ínicio do documento HTML se dará assim:
 <meta http-equiv="X-UA-Compatible" content="IE=7" />
 <meta http-equiv="X-UA-Compatible" content="IE=8" />
 <meta http-equiv="X-UA-Compatible" content="IE=9" />
-<!--[if !mso]><!-- -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!--[if !mso]><-- -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <!--<![endif]-->
 
 - Title tag para email marketing
