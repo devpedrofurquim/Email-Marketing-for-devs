@@ -54,6 +54,28 @@ O código base da folha interna fica assim:
 
 ![image](https://i.ibb.co/p0CmxVZ/Folha-Style-Interna.png)
 
+# Web design responsivo para email marketing
+
+O termo Web Design Responsivo, implementado por Ethan Marcotte, é a prática de desenvolver um site ou email marketing de um modo que o design seja otimizado para todos os usuários e seus respectivos meios de acesso a internet, seja através de um celular, tlablet ou desktop.
+
+O web design responsivo é extremamente dependente das Medias Queries, e mais recentemente também os emails marketing.
+
+Uma Media Querie segue uma estrutura muito simples. Para o Email Marketing as Media Queries devem estar inline, dentro das tags <style> no código HTML.
+
+Primeiro, a regra é que elas se iniciem com a "@media". Depois vem uma palavra chave, que no caso do email marketing é "only", que restringe o estilo de display para um tipo específico de tela. Depois disso vem o "media type". Outra palavra chave é  o "and" e finalmente de "media feature", que é o núcleo da Media Query.
+
+Os dois únicos tipos de atributos que devemos nos preocupar quando desenvolvemos email marketing são:
+
+* max-width
+
+Medida em relação ao espaço disponível do browser.
+
+* max-device-width
+
+Medida em relação ao espaço disponível da tela usada para a visualização do email.
+
+* Essencialmente, max-width cobrem tudo e max-device cobre telas pequenas.
+
 
 
 # Exemplos efetivos de campanhas de email marketing
